@@ -4,8 +4,10 @@ import "./globals.css";
 
 // Page Imports
 import { ThemeProvider } from "./components/theme-provider";
-// Components
-import Navbar from "./components/Navbar";
+
+// Component Sections
+import Navbar from "./components/section/Navbar";
+import Hero from "./components/section/Hero";
 
 const defaultFont = Bricolage_Grotesque({ subsets: ["latin"] });
 
@@ -22,6 +24,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <Navbar />
           {children}
+          <Hero />
         </ThemeProvider>
       </body>
     </html>
