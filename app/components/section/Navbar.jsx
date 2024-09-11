@@ -64,7 +64,7 @@ export default function Navbar() {
                       ref={addToRefs}
                       onMouseEnter={() => handleMouseEnter(index)}
                       onMouseLeave={() => handleMouseLeave(index)}
-                      className="relative overflow-hidden inline-block list-none mt-6"
+                      className="relative overflow-hidden inline-block list-none mt-6 text-primaryColor"
                     >
                       <Link href={text === 'Home' ? `/` : `/${text.toLowerCase()}`} passHref>
                           <span className="old-text block text-center">{text}</span>
@@ -72,7 +72,7 @@ export default function Navbar() {
                       </Link>
                     </li>
                   ))}
-                  <div className="border border-1 py-3"></div>
+                  <div className="border border-1 py-3 text-[#00010e]"></div>
                   <button className="inline-flex h-12 animate-shimmer items-center justify-center border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-white transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                     Contact Me
                   </button>

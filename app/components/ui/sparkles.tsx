@@ -84,11 +84,11 @@ export const SparklesCore = (props: ParticlesProps) => {
               },
               modes: {
                 push: {
-                  quantity: 4,
+                  quantity: 50,
                 },
                 repulse: {
                   distance: 200,
-                  duration: 0.4,
+                  duration: 0.1,
                 },
               },
             },

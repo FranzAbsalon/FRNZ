@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <body className={defaultFont.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <Navbar />
-          {children}
+          {/* {children} */}
           <Hero />
         </ThemeProvider>
       </body>

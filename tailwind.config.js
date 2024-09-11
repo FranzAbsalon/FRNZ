@@ -8,7 +8,24 @@ module.exports = {
     './src/**/*.{js,jsx}',
   ],
   prefix: "",
+  darkMode: 'class',
   theme: {
+    colors: {
+      light: {
+        primary: '#00010e',
+        text: {
+          primaryColor: 'red',
+        },
+      },
+      dark: {
+        primary: '#00010e',
+        text: '#F2F2F2',
+      }
+      // text: {
+      //   primary: '#1d4ed8', // Custom primary text color
+      //   secondary: '#9333ea', // Custom secondary text color
+      // },
+    },
     container: {
       center: true,
       padding: "2rem",

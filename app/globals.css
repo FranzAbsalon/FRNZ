@@ -2,7 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #00010e;
-  color: #F2F2F2;
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff;
 }
+
+.introText {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
